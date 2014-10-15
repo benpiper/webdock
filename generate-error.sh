@@ -9,5 +9,5 @@ fi
 id=`docker inspect -f '{{.Id}}' $1`
 FILE=/var/lib/docker/aufs/mnt/$id/app/index.php
 if [ -f $FILE ]; then
-cp -f /app/error.php $FILE
+cp -f /var/lib/boot2docker/app/error.php $FILE
 fi
