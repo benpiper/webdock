@@ -1,4 +1,12 @@
 #/bin/sh
+
+echo About to configure IP addresses and launch containers.
+echo Press 'n' to break or any other key to continue.
+
+read -n 1 -t 3 -s cont
+if [ $cont == 'n' ]; then exit 1
+else
+
 echo Configuring IP addresses...
 
 
@@ -22,4 +30,4 @@ docker run -d --name webserver1 -e CONTAINERNAME=webserver1 -p 192.168.200.1:80:
 docker run -d --name webserver2 -e CONTAINERNAME=webserver2 -p 192.168.200.2:80:80 benpiper/lbwebtest
 docker run -d --name webserver3 -e CONTAINERNAME=webserver3 -p 192.168.200.3:80:80 benpiper/lbwebtest
 docker run -d --name webserver4 -e CONTAINERNAME=webserver4 -p 192.168.200.4:80:80 benpiper/lbwebtest
-
+fi
