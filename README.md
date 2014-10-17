@@ -1,4 +1,4 @@
-<b>Download the webdock OVF from the following locations:
+<h2>Download the webdock OVF from the following locations:</h2>
 
 <p><a href="https://www.hightail.com/download/UlRUV295eFVrWTgxWjhUQw" target="_blank">webdock on Hightail</a>
 <p><a href="https://www.dropbox.com/s/o8btkuytx67gvjv/webdock.zip?dl=0" target="_blank">webdock on Dropbox
