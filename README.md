@@ -4,6 +4,9 @@
 <p><a href="https://www.hightail.com/download/UlRUV295eFVrWTgxWjhUQw" target="_blank">webdock on Hightail</a>
 
 <h2>About</h2>
+
+webdock is a virtual machine (OVF) that uses Docker to spin up multiple web servers for testing NetScaler load-balancing. Designed for my Pluralsight course <a href="https://www.pluralsight.com/authors/ben-piper?utm_medium=affiliate&utm_source=1321192">Citrix NetScaler 10: Design and Deployment</a>
+
 ash scripts and php files for use with the <a href="https://registry.hub.docker.com/u/benpiper/lbwebtest/">benpiper/lbwebtest</a> docker image and boot2docker.
 
 generate-error.sh and clear-error.sh:
