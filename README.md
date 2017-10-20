@@ -2,6 +2,7 @@
 
 <p><a href="http://benpiper.com/wp-content/uploads/2014/10/webdock.torrent">webdock on bittorrent</a>
 <p><a href="https://www.hightail.com/download/UlRUV295eFVrWTgxWjhUQw" target="_blank">webdock on Hightail</a>
+<p><a href="https://www.dropbox.com/s/qrfj8i206iysof4/webdock.zip?dl=0">webdock on Dropbox</a>
 
 <h2>About</h2>
 
